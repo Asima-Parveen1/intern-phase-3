@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="listings-page.css">
+</head>
+<body>
+    
+
+    <div class="property-listings">
+        <div class="container">
+          <h2>Property Listings</h2>
+          <div class="filter-container">
+            <select id="price-filter" placeholder="Price">
+              <option value="all">All</option>
+              <option value="100000-200000">$100,000 - $200,000</option>
+              <option value="200000-500000">$200,000 - $500,000</option>
+              <option value="500000-1000000">$500,000 - $1,000,000</option>
+            </select>
+            <select id="location-filter" placeholder="Location">
+              <option value="all">All</option>
+              <option value="new-york">New York</option>
+              <option value="los-angeles">Los Angeles</option>
+              <option value="chicago">Chicago</option>
+            </select>
+            <select id="type-filter" placeholder="Type">
+              <option value="all">All</option>
+              <option value="residential">Residential</option>
+              <option value="commercial">Commercial</option>
+              <option value="condo">Condo</option>
+            </select>
+            <button id="filter-btn">Filter</button>
+          </div>
+          <div class="listings-container">
+            <!-- Listing 1 -->
+            <div class="listing">
+              <img src="listing1.jpeg" alt="Listing 1">
+              <h3>123 Main St, New York</h3>
+              <p>$200,000</p>
+              <p>Residential</p>
+            </div>
+            <!-- Listing 2 -->
+            <div class="listing">
+              <img src="listing2.jpg" alt="Listing 2">
+              <h3>456 Elm St, Los Angeles</h3>
+              <p>$500,000</p>
+              <p>Commercial</p>
+            </div>
+            <!-- Listing 3 -->
+            <div class="listing">
+              <img src="listing1.jpeg" alt="Listing 3">
+              <h3>789 Oak St, Chicago</h3>
+              <p>$300,000</p>
+              <p>Condo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+
+
+</body>
+</html>
